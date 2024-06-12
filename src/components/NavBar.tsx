@@ -1,34 +1,16 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import * as styles from './NavBar.module.css';
-
-const navStyles = {
-  display: "flex",
-  justifyContent: "flex-end",
-  alignItems: "center",
-  padding: "1rem 2rem",
-  backgroundColor: "#232129",
-  color: "#fff",
-};
-
-const linkStyles = {
-  color: "#fff",
-  textDecoration: "none",
-  padding: "0.1rem 1rem",
-  fontWeight: "bold",
-};
 
 const NavBar: React.FC = () => {
   return (
-    <nav style={navStyles}>
-        <Link to="/" className={styles.link}>Home</Link>
-        <Link to="/about" className={styles.link}>About Me</Link>
-        <Link to="/projects" className={styles.link}>Projects</Link>
-        <a href="/static/resume.pdf" target="_blank" className={styles.link}>Resume</a>
-        <a href="https://github.com/ANDREW0307" target="_blank" className={styles.link}>       
-            <img src="/static/github.svg" alt="GitHub" style={{ height: '24px', verticalAlign: 'middle' }} />
-        </a>
-
+    <nav className="flex justify-end items-center p-4 bg-gray-800 text-white">
+      <Link to="/" className="px-4 py-1 font-bold no-underline hover:text-purple-600 transition duration-300">Home</Link>
+      <Link to="/about" className="px-4 py-1 font-bold no-underline hover:text-purple-600 transition duration-300">About Me</Link>
+      <Link to="/projects" className="px-4 py-1 font-bold no-underline hover:text-purple-600 transition duration-300">Projects</Link>
+      <a href="/static/resume.pdf" target="_blank" className="px-4 py-1 font-bold no-underline hover:text-purple-600 transition duration-300">Resume</a>
+      <a href="https://github.com/ANDREW0307" target="_blank" className="px-4 py-1 font-bold no-underline hover:text-purple-600 transition duration-300">
+        <img src="/static/github_logo_white_clear.svg" alt="GitHub" className="h-6 align-middle" />
+      </a>
     </nav>    
   );
 };
