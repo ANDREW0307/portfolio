@@ -1,13 +1,12 @@
 /* NavBar.module.css */
 .link {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.1rem 1rem;
-    font-weight: bold;
-    transition: color 0.3s ease; /* Transition effect for color change */
-  }
-  
-  .link:hover {
-    color: #663399; /* Deep purple color on hover */
-  }
-  
+  color: #fff;
+  text-decoration: none;
+  padding: 0.1rem 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+
+.link:hover {
+  color: #663399; /* Deep purple color on hover */
+}
