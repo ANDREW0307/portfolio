@@ -38,12 +38,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <main className="page">
-        <h1 className="heading">
-          Congratulations
-          <br />
-          <span className="heading-accent">— you built a site! 🎉🎉🎉</span>
-        </h1>
-        <video autoPlay muted loop style={{ width: '100%' }}>
+        <video autoPlay muted loop style={{ width: '100%'}}>
           <source src="/static/videos/bikes.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

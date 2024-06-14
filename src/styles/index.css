@@ -1,7 +1,13 @@
 /* index.css */
+
+html {
+  font-size: 1.25vw; /* Base font size scales with the viewport width */
+}
+
 .page {
     color: #232129;
-    padding: 96px;
+    width: 100%;
+    /* padding: 96px; */
     font-family: -apple-system, Roboto, sans-serif, serif;
   }
   .heading {

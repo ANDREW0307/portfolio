@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const layoutStyles = {
   margin: "0 auto",
-  maxWidth: "960px",
+  maxWidth: "100%",
   padding: "0 0rem",
 };
 

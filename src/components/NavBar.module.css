@@ -10,3 +10,11 @@
 .link:hover {
   color: #663399; /* Deep purple color on hover */
 }
+
+
+/* Additional CSS for responsiveness */
+@media (max-width: 768px) {
+  .link {
+    font-size: 0.8rem; /* Smaller font size for smaller screens */
+  }
+}
