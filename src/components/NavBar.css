@@ -1,0 +1,15 @@
+.linkStyle {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.1rem 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+  }
+  
+  .linkStyle:hover {
+    color: #663399; /* Purple color on hover */
+  }
+  
